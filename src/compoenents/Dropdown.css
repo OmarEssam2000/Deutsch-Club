@@ -1,0 +1,37 @@
+.dropdown{
+    user-select: none;
+}
+.dropdown .dropdown-btn{
+    background-color: transparent ;
+    color: coral;
+    padding: 0 19px;
+    transition: 1.5s;
+}
+.dropdown .dropdown-btn:hover{
+    border-radius: 8px;
+    background-color:coral;
+    color: white;
+    cursor: pointer;
+}
+.dropdown .dropdown-content{
+    position:absolute;
+    top:16%;
+    padding:15px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+    color:#333;
+    z-index: 1000;
+    
+}
+.dropdown .dropdown-content .dropdown-item{
+    padding:10px;
+}
+.DropClass{
+    display: flex;
+    padding: 10px 10px;
+    width: 100%;
+}
+.DropClass:hover{
+    background-color:coral;
+    color:crimson;
+}
